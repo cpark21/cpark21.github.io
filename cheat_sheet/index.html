@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resources\style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>HTML Basics - Cheat Sheet</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> How to set up an HTML Document</h1>
+        <p> Before you even start writing your code, you need to
+            set up your HTML file. <br> Let's see how we can do that.</p>
+    </header>
+    
+    <main>
+        <div class="basics">
+            <h2>The Basics</h2>
+                <br>
+                <h3>Naming your HTML</h3>
+                <p> For any website, it is the industry standard to name your main html file "index.html." Now, when other people are
+                looking through your files, they will know that your "index.html" is your main html file! </p>
+            
+                <br>
+
+                <h3>Declaring Document Type (DOCTYPE)</h3>
+                <p> Begin every HTML document with &lt;!DOCTYPE html&gt;. If you inspect any website on your internet browser by pressing F12, you will notice that the first
+               line is always &lt;!DOCTYPE html&gt;. This is to declare that the file is an HTML file for programs to read. 
+                </p>
+        </div>
+
+        <div class="head">
+            <h2>The Head</h2>
+            <br>
+            <p>The head wraps around text that sets up your html document. Although nothing inside the &lt;head&gt; actually appears
+                on your website, it is still crucial.
+            </p>
+            <br>
+                <h3>The &lt;title&gt;</h3>
+                <img src="resources\images\title.PNG"/>
+                <p>This is the the text that will appear as the tab name.
+                    For this website, it is "HTML Basics - Cheat Sheet" as shown 
+                    above.
+                </p>
+                <br>
+            
+                <h3>Linking files</h3>
+                <p>You can link files using the &lt;link&gt; For this website,
+                    the &lt;link&gt; tag is used to link the .css and font to 
+                the html file.</thead> </p>
+                
+        </div>
+
+        <div class="body">
+            <h2>The Body</h2>
+            <img src="resources\images\burger.png"/>
+            <p> The "meat" of your website. ALL your content will be included in the body. This includes the tags such as the header, main and footer.</p>
+        </div>
+        
+    </main>
+
+    <div class="table">
+        <h2>Some Useful HTML Tags</h2>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Function</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Hyperlinks text</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;h1-h6&gt;</td>
+                    <td>Headers with different sizes</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Classify specific text</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Wrapper element for tables</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;ul/ol&gt;</td>
+                    <td>Unordered/ordered list</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;button&gt;</td>
+                    <td>Makes text a button</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <h3>Hope this helped! Let's tackle HTML together!</h3>
+        <br>
+        <ul class="socials">
+            <li class="youtube"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li class="twitch"><a href="https://www.twitch.tv/" target="_blank">Twitch</a></li>
+            <li class="twitter"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

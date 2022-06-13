@@ -1,0 +1,123 @@
+* {
+    font-family: 'IBM Plex Mono', monospace;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-size: 60px;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+
+header p {
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+h2 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+.basics, .body {
+    background-color: aliceblue;
+    color: black;
+    padding: 30px 30px;
+}
+
+.head {
+    background-color: black;
+    padding: 30px 30px;
+    color:aliceblue;
+}
+
+
+.table{
+    background-color: black;
+    padding: 30px 30px;
+    color:aliceblue;
+}
+
+
+table {
+    border: 3px solid aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+table thead {
+    color: aliceblue;
+    background-color: black;
+}
+
+table tbody {
+    color: black;
+    background-color: aliceblue;
+}
+
+
+footer {
+    padding: 30px 30px;
+    background-color: aliceblue;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.youtube {
+    background-color: red;
+    border: 2px solid black;
+    color: aliceblue;
+}
+
+.twitch {
+    background-color: purple;
+    border: 2px solid black;
+    color: aliceblue;
+
+}
+
+.twitter {
+    background-color: rgb(64, 124, 202);
+    border: 2px solid black;
+    color: aliceblue;
+
+}
+
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
